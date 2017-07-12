@@ -1,0 +1,50 @@
+
+/** style-sheet ( backend/admin/dashbaord ) **/
+.widget-uploadimage__wrap {
+	margin-top: 20px;
+	position: relative;
+    display: inline-block;
+}
+.widget-uploadimage__wrap img {
+	height: 150px;
+	width: 150px;
+	position: relative;
+	z-index: 3;
+}
+.widget-uploadimage__wrap .no-image {
+	background: url('../images/icon-image-64.png') no-repeat scroll center center transparent;
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.widget-uploadimage__wrap #upload-test {
+	position: absolute;
+    left: 0;
+    top: 0;
+    background-color: blue;
+    color: #fff;
+    display: block;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    text-decoration: none;
+	z-index: 4;
+}
+.widget-uploadimage__wrap #remove-test {
+	position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+    color: white;
+    display: block;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    text-decoration: none;
+	z-index: 4;
+}
